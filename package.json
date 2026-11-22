@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-sticker-moderator",
+  "version": "1.0.0",
+  "description": "WhatsApp group bot that removes users who send too many stickers",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pino": "^9.6.0"
+  }
+}
